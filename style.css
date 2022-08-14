@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+}
+
+.conteudo {
+    border: 1px solid #000;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 400px;
+    margin: 18px;
+}
+
+.conteudo, h1, p {
+    padding: 10px;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* noticias */
+
+.noti {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    background-color: cadetblue;
+}
+
+.noti, h3 {
+    align-items: center;
+}
+
+.noti, ul {
+    list-style: none;
+}
+
+.noti, li {
+    text-align:justify;
+}
+
+/* fotos */
+
+#foto {
+    display: flex;
+    padding: 10px;
+}
+
+.cont {
+    display: flex;
+    justify-content:start;
+    margin: 10px;
+}
+
+.cont, p {
+    text-align: justify;
+}
+
+h3 {
+    margin: 5px;
+}
+
+/* rodape */
+
+.rodape {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.readpe, h4, p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+}
+
+.conteudo {
+    border: 1px solid #000;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 400px;
+    margin: 18px;
+}
+
+.conteudo, h1, p {
+    padding: 10px;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* noticias */
+
+.noti {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    background-color: cadetblue;
+}
+
+.noti, h3 {
+    align-items: center;
+}
+
+.noti, ul {
+    list-style: none;
+}
+
+.noti, li {
+    text-align:justify;
+}
+
+/* fotos */
+
+#foto {
+    display: flex;
+    padding: 10px;
+}
+
+.cont {
+    display: flex;
+    justify-content:start;
+    margin: 10px;
+}
+
+.cont, p {
+    text-align: justify;
+}
+
+h3 {
+    margin: 5px;
+}
+
+/* rodape */
+
+.rodape {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.readpe, h4, p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
